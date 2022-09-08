@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>T-SHOP Login</title>
+        <link rel="stylesheet"href="login.css"/>
+    </head>
+    <body>
+        <div class="box">
+        <form  action="login.html" method="Post">
+            <h1>Login</h1>
+            <input type="text"name=""placeholder="Enter username"id="username"onkeyup="checkUsername()">
+            <span id="usermessage"></span><br>
+            <input type="password"name=""placeholder="password"id="password"onkeyup="checkPassword()">
+            <span id="passwordmessage"></span><br>
+        </form>
+        <button class="btn" onclick="checkValidation()" id="check"><a href=home.html>Login</a></button>
+        <span id="loginmessage"></span>
+     <script src="home.js"></script>
+        </div>
+    </body>
+</html>
